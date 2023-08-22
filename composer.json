@@ -11,7 +11,7 @@
         },
         {
             "type": "path",
-            "url": "./northplay/np-centrifugo"
+            "url": "./northplay/northplay-centrifugo"
         }
     ],
     "require": {
