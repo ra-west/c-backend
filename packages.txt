@@ -1,0 +1,23 @@
+ii  php-common                        2:93+0~20230409.46+debian11~1.gbpdb4dcc          all          Common files for PHP packages
+ii  php-memcached                     3.1.5+2.2.0-5+deb11u1                            amd64        memcached extension module for PHP, uses libmemcached
+ii  php-msgpack                       2.1.2+0.5.7-2                                    amd64        PHP extension for interfacing with MessagePack
+ii  php7.4-cli                        7.4.33-1+deb11u3                                 amd64        command-line interpreter for the PHP scripting language
+ii  php7.4-common                     7.4.33-1+deb11u3                                 amd64        documentation, examples and common module for PHP
+ii  php7.4-json                       7.4.33-1+deb11u3                                 amd64        JSON module for PHP
+ii  php7.4-opcache                    7.4.33-1+deb11u3                                 amd64        Zend OpCache module for PHP
+ii  php7.4-phpdbg                     7.4.33-1+deb11u3                                 amd64        server-side, HTML-embedded scripting language (PHPDBG binary)
+ii  php7.4-readline                   7.4.33-1+deb11u3                                 amd64        readline module for PHP
+ii  php8.2-cli                        8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        command-line interpreter for the PHP scripting language
+ii  php8.2-common                     8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        documentation, examples and common module for PHP
+ii  php8.2-curl                       8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        CURL module for PHP
+ii  php8.2-fpm                        8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        server-side, HTML-embedded scripting language (FPM-CGI binary)
+ii  php8.2-gmp                        8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        GMP module for PHP
+ii  php8.2-igbinary                   3.2.13-1+0~20230207.37+debian11~1.gbp76ad09      amd64        igbinary PHP serializer
+ii  php8.2-mbstring                   8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        MBSTRING module for PHP
+ii  php8.2-mysql                      8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        MySQL module for PHP
+ii  php8.2-opcache                    8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        Zend OpCache module for PHP
+ii  php8.2-pgsql                      8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        PostgreSQL module for PHP
+ii  php8.2-readline                   8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        readline module for PHP
+ii  php8.2-redis                      5.3.7+4.3.0-2+0~20221210.45+debian11~1.gbp99917f amd64        PHP extension for interfacing with Redis
+ii  php8.2-xml                        8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        DOM, SimpleXML, XML, and XSL module for PHP
+ii  php8.2-zip                        8.2.6-1+0~20230512.20+debian11~1.gbpf965ac       amd64        Zip module for PHP

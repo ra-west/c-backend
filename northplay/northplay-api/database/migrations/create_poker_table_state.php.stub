@@ -1,0 +1,74 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+	/*
+
+	
+
+
+
+$model = [
+						"msg_type" => "game_state", 
+						"name" => "LVDV", 
+						"max_players" => 9, 
+						"small_blind" => 1, 
+						"big_blind" => 2, 
+						"buy_in" => 200, 
+						"password" => null, 
+						"button_idx" => 0, 
+						"hand_num" => 1, 
+						"game_suspended" => false, 
+						"players" => [
+									[
+										"index" => 0, 
+										"player_name" => "Bot 0", 
+										"money" => 198, 
+										"is_active" => true, 
+										"preflop_cont" => 2, 
+										"flop_cont" => 0 
+									], 
+									[
+												"index" => 1, 
+												"player_name" => "qwqwqw", 
+												"money" => 198, 
+												"is_active" => true, 
+												"last_action" => "check", 
+												"preflop_cont" => 2, 
+												"flop_cont" => 0 
+									], 
+									null, 
+									null, 
+									null, 
+									null, 
+									null, 
+									null, 
+									null 
+							], 
+						"street" => "flop", 
+						"current_bet" => 0, 
+						"flop" => "6h6s5c", 
+						"pots" => [
+													4 
+												], 
+						"index_to_act" => 0, 
+						"your_index" => 1, 
+						"hole_cards" => "7hJs" 
+				]; 
+
+*/
+    public function up()
+    {
+        Schema::create('northplay_poker_table_state', function (Blueprint $table) {
+            $table->id();
+
+            // add fields
+
+            $table->timestamps();
+        });
+    }
+};

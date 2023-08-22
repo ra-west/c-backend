@@ -1,0 +1,61 @@
+{
+    "name": "northplay/northplay-api",
+    "description": "API northplay",
+    "keywords": [
+        "Northplay",
+        "laravel",
+        "northplay-api"
+    ],
+    "version": "0.1",
+    "homepage": "https://github.com/northplay/northplay-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Northplay.app",
+            "email": "dev@northplay.app",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "centrifugal/phpcent": "~5.0",
+        "spatie/laravel-package-tools": "^1.14.0",
+        "illuminate/contracts": "^10.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers/utils.php"
+        ],
+        "psr-4": {
+            "Northplay\\NorthplayApi\\": "src",
+            "Northplay\\NorthplayApi\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Northplay\\NorthplayApi\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --no-ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Northplay\\NorthplayApi\\NorthplayApiServiceProvider"
+            ],
+            "aliases": {
+                "NorthplayApi": "Northplay\\NorthplayApi\\Facades\\NorthplayApi"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,1021 @@
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+
+   WARN  Failed to listen on 127.0.0.1:10800 (reason: Address already in use).  
+
+  2023-05-12 16:09:36 ................................................... ~ 1s
+  2023-05-12 16:09:37 ................................................... ~ 0s
+  2023-05-12 16:09:51 ................................................... ~ 0s
+  2023-05-12 16:09:52 ................................................... ~ 0s
+  2023-05-12 16:09:52 ................................................... ~ 0s
+  2023-05-12 16:10:19 ................................................... ~ 0s
+  2023-05-12 16:10:29 ................................................... ~ 0s
+  2023-05-12 16:13:40 ................................................... ~ 0s
+  2023-05-12 16:13:50 ................................................... ~ 0s
+  2023-05-12 16:14:07 ................................................... ~ 0s
+  2023-05-12 16:14:10 ................................................... ~ 0s
+  2023-05-12 16:14:13 ................................................... ~ 0s
+  2023-05-12 16:14:23 ................................................... ~ 0s
+  2023-05-12 16:14:28 ................................................... ~ 0s
+  2023-05-12 16:14:51 ................................................... ~ 0s
+  2023-05-12 16:14:54 ................................................... ~ 0s
+  2023-05-12 16:15:05 ................................................... ~ 0s
+  2023-05-12 16:15:11 ................................................... ~ 0s
+  2023-05-12 16:15:50 ................................................... ~ 0s
+  2023-05-12 16:15:55 ................................................... ~ 0s
+  2023-05-12 16:15:58 ................................................... ~ 0s
+  2023-05-12 16:16:03 ................................................... ~ 0s
+  2023-05-12 16:16:07 ................................................... ~ 0s
+  2023-05-12 16:16:07 ................................................... ~ 0s
+  2023-05-12 16:16:07 ................................................... ~ 1s
+  2023-05-12 16:16:14 ................................................... ~ 0s
+  2023-05-12 16:16:14 ................................................... ~ 0s
+  2023-05-12 16:16:15 ................................................... ~ 0s
+  2023-05-12 16:16:18 ................................................... ~ 1s
+  2023-05-12 16:16:31 ................................................... ~ 0s
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 258.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 318.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 329.  
+
+  2023-05-12 16:16:31 ................................................... ~ 0s
+  2023-05-12 16:16:31 ................................................... ~ 0s
+  2023-05-12 16:16:32 ................................................... ~ 0s
+  2023-05-12 16:16:33 ................................................... ~ 0s
+  2023-05-12 16:16:35 ................................................... ~ 0s
+  2023-05-12 16:16:37 ................................................... ~ 0s
+  2023-05-12 16:16:40 ................................................... ~ 0s
+  2023-05-12 16:16:42 ................................................... ~ 0s
+  2023-05-12 16:16:45 ................................................... ~ 0s
+  2023-05-12 16:16:47 ................................................... ~ 0s
+Laravel Framework 10.10.1
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help            Display help for the given command. When no command is given display help for the list command
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi|--no-ansi  Force (or disable --no-ansi) ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+      --env[=ENV]       The environment the command should run under
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands for the "queue" namespace:
+  queue:batches-table  Create a migration for the batches database table
+  queue:clear          Delete all of the jobs from the specified queue
+  queue:failed         List all of the failed queue jobs
+  queue:failed-table   Create a migration for the failed queue jobs database table
+  queue:flush          Flush all of the failed queue jobs
+  queue:forget         Delete a failed queue job
+  queue:listen         Listen to a given queue
+  queue:monitor        Monitor the size of the specified queues
+  queue:prune-batches  Prune stale entries from the batches database
+  queue:prune-failed   Prune stale entries from the failed jobs table
+  queue:restart        Restart queue worker daemons after their current job
+  queue:retry          Retry a failed queue job
+  queue:retry-batch    Retry the failed jobs for a batch
+  queue:table          Create a migration for the queue jobs database table
+  queue:work           Start processing jobs on the queue as a daemon
+  2023-05-12 16:16:50 ................................................... ~ 0s
+  2023-05-12 16:16:51 ................................................... ~ 0s
+  2023-05-12 16:16:52 ................................................... ~ 0s
+  2023-05-12 16:16:57 ................................................... ~ 0s
+  2023-05-12 16:17:02 ................................................... ~ 0s
+  2023-05-12 16:17:07 ................................................... ~ 0s
+
+   INFO  Processing jobs from the [default] queue.  
+
+  2023-05-12 16:17:09 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-12 16:17:09 Northplay\NorthplayApi\Jobs\CreateSession . 57.02ms DONE
+  2023-05-12 16:17:09 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-12 16:17:10 Northplay\NorthplayApi\Jobs\CreateGameSession  372.31ms DONE
+  2023-05-12 16:17:12 ................................................... ~ 0s
+  2023-05-12 16:17:12 ................................................... ~ 1s
+  2023-05-12 16:17:13 ................................................... ~ 1s
+  2023-05-12 16:17:20 ................................................... ~ 1s
+  2023-05-12 16:17:21 ................................................... ~ 0s
+  2023-05-12 16:17:21 ................................................... ~ 0s
+  2023-05-12 16:17:22 ................................................... ~ 0s
+  2023-05-12 16:17:23 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-12 16:17:23 Northplay\NorthplayApi\Jobs\CreateSession . 64.98ms DONE
+  2023-05-12 16:17:23 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-12 16:17:23 Northplay\NorthplayApi\Jobs\CreateGameSession  343.50ms DONE
+  2023-05-12 16:17:24 ................................................... ~ 0s
+  2023-05-12 16:17:24 ................................................... ~ 0s
+  2023-05-12 16:17:25 ................................................... ~ 0s
+  2023-05-12 16:17:34 ................................................... ~ 0s
+  2023-05-12 16:17:36 ................................................... ~ 1s
+  2023-05-12 16:17:38 ................................................... ~ 0s
+  2023-05-12 16:17:40 ................................................... ~ 1s
+  2023-05-12 16:21:54 ................................................... ~ 0s
+  2023-05-12 16:22:15 ................................................... ~ 0s
+  2023-05-12 16:22:23 ................................................... ~ 1s
+  2023-05-12 16:22:25 ................................................... ~ 0s
+  2023-05-12 16:22:25 ................................................... ~ 1s
+  2023-05-12 16:22:33 ................................................... ~ 0s
+  2023-05-12 16:27:47 ................................................... ~ 0s
+  2023-05-12 16:28:05 ................................................... ~ 0s
+  2023-05-12 16:28:24 ................................................... ~ 0s
+  2023-05-12 16:28:50 ................................................... ~ 0s
+  2023-05-12 16:28:56 ................................................... ~ 0s
+  2023-05-12 16:32:39 ................................................... ~ 0s
+
+In Process.php line 434:
+                                                  
+  The process has been signaled with signal "1".  
+                                                  
+
+
+   INFO  Processing jobs from the [default] queue.  
+
+  2023-05-14 14:20:21 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:20:21 Northplay\NorthplayApi\Jobs\CreateSession . 58.02ms DONE
+  2023-05-14 14:20:21 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:20:21 Northplay\NorthplayApi\Jobs\CreateSession . 56.11ms DONE
+  2023-05-14 14:20:21 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:20:22 Northplay\NorthplayApi\Jobs\CreateGameSession  396.62ms DONE
+  2023-05-14 14:20:22 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:20:22 Northplay\NorthplayApi\Jobs\CreateGameSession  427.87ms DONE
+  2023-05-14 14:20:29 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:20:29 Northplay\NorthplayApi\Jobs\CreateSession . 46.88ms DONE
+  2023-05-14 14:20:29 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:20:30 Northplay\NorthplayApi\Jobs\CreateGameSession  518.45ms DONE
+  2023-05-14 14:22:52 Northplay\NorthplayApi\Jobs\ImportSoftswiss .... RUNNING
+  2023-05-14 14:22:54 Northplay\NorthplayApi\Jobs\ImportSoftswiss  1,601.66ms DONE
+  2023-05-14 14:23:36 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PrincessOfSky/FUN?play_token=c5d5e9a3-2870-43ed-a8b0-b0f60c4c430d  2023-05-14 14:23:37 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  821.24ms DONE
+  2023-05-14 14:23:37 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/HawaiiCocktails/FUN?play_token=a9cea41c-dba1-4f34-9e49-f57150b0ec5d  2023-05-14 14:23:38 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  705.82ms DONE
+  2023-05-14 14:23:38 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BraveViking/FUN?play_token=7591c8b6-b208-43c7-8a0f-7c5d89177c9a  2023-05-14 14:23:39 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  701.99ms DONE
+  2023-05-14 14:23:39 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BookOfPyramids/FUN?play_token=8d403aa4-f778-456e-9611-8ebfb50881cb  2023-05-14 14:23:40 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  550.82ms DONE
+  2023-05-14 14:23:40 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/ElvisFrogTrueways/FUN?play_token=0a794b29-5b5c-47d4-be10-d049f6d87113  2023-05-14 14:23:41 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  608.32ms DONE
+  2023-05-14 14:23:41 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SicBo/FUN?play_token=0c645d52-611f-4f45-81b5-0e5493256ae4  2023-05-14 14:23:41 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  544.39ms DONE
+  2023-05-14 14:23:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AllLuckyClover20/FUN?play_token=202ab964-ab01-4718-b2bb-f6c98eddca8a  2023-05-14 14:23:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  588.01ms DONE
+  2023-05-14 14:23:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Maneki88Gold/FUN?play_token=ef70ad94-ecea-4447-a3ef-141d9d2a6b59  2023-05-14 14:23:43 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  556.07ms DONE
+  2023-05-14 14:23:43 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyLadyMoon/FUN?play_token=482613b4-f232-475c-a1c1-77863eb0a2da  2023-05-14 14:23:44 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  585.41ms DONE
+  2023-05-14 14:23:44 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AztecMagicMegaways/FUN?play_token=b057314b-c0d7-48f3-8142-ade287a7f878  2023-05-14 14:23:45 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  643.82ms DONE
+  2023-05-14 14:23:45 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/OasisPoker/FUN?play_token=7c3ffeff-942a-4f7a-a22d-dc8d980350a1  2023-05-14 14:23:46 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  712.43ms DONE
+  2023-05-14 14:23:46 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/ScrollOfAdventure/FUN?play_token=4ac2907d-fed7-4e14-9a22-bfe70df826af  2023-05-14 14:23:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  717.96ms DONE
+  2023-05-14 14:23:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JokerQueen/FUN?play_token=6c7e2820-3448-421b-877e-1f7791ed07ba  2023-05-14 14:23:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  566.64ms DONE
+  2023-05-14 14:23:48 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Road2Riches/FUN?play_token=50081761-18f9-4635-a99a-bbc1202c1e0b  2023-05-14 14:23:49 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  951.89ms DONE
+  2023-05-14 14:23:49 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/TreyPoker/FUN?play_token=170909b5-61b5-4b47-bd7f-101f988dec03  2023-05-14 14:23:50 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  739.24ms DONE
+  2023-05-14 14:23:50 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SlotomonGo/FUN?play_token=fcda0bb9-287e-4c39-a3bf-df7bf61cb572  2023-05-14 14:23:51 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  534.05ms DONE
+  2023-05-14 14:23:51 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/TexasHoldem/FUN?play_token=2fa7a9c8-15e2-4276-8f13-6ece1889a69b  2023-05-14 14:23:53 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  1,658.19ms DONE
+  2023-05-14 14:23:53 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Plinko/FUN?play_token=a0a124dc-e246-4759-81a7-c0b513875ecd  2023-05-14 14:23:54 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  1,461.11ms DONE
+  2023-05-14 14:23:55 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JacksOrBetter/FUN?play_token=2aae50e2-67e2-4549-8d63-7d4422b5b92a  2023-05-14 14:23:55 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  551.15ms DONE
+  2023-05-14 14:23:56 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/MechanicalOrange/FUN?play_token=7634a226-a084-4ad9-9064-57108ebf484f  2023-05-14 14:23:56 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  604.63ms DONE
+  2023-05-14 14:23:56 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DigDigDigger/FUN?play_token=3032c779-9f57-4020-ab78-9308a3d957d5  2023-05-14 14:23:57 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  642.24ms DONE
+  2023-05-14 14:23:57 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CloverBonanza/FUN?play_token=024d7bf1-2c4a-48c7-99a5-694412711b50  2023-05-14 14:23:58 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  716.91ms DONE
+  2023-05-14 14:23:58 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AztecMagic/FUN?play_token=c228257f-4925-492a-a9d5-bd0a2706a798  2023-05-14 14:23:59 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  716.52ms DONE
+  2023-05-14 14:23:59 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SicBoMacau/FUN?play_token=8fc5f8ce-adcf-485c-b045-2a9e85472a62  2023-05-14 14:24:00 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  645.33ms DONE
+  2023-05-14 14:24:00 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FruitMillion/FUN?play_token=af8bd9fe-f1b3-43bd-9ebc-b1902c68d7d3  2023-05-14 14:24:01 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  624.54ms DONE
+  2023-05-14 14:24:01 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JogoDoBicho/FUN?play_token=edfe067e-fb51-465a-9c46-ee68209b41ca  2023-05-14 14:24:01 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  559.56ms DONE
+  2023-05-14 14:24:02 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/WildTexas/FUN?play_token=65c052fd-3b4a-4182-8d98-2e4aaaacf4d7  2023-05-14 14:24:02 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  566.75ms DONE
+  2023-05-14 14:24:03 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/MultihandBlackjack/FUN?play_token=c1ebe1ff-4aa4-4bfc-a8ce-ab150d51cd6d  2023-05-14 14:24:03 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  760.84ms DONE
+  2023-05-14 14:24:04 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DeepSea/FUN?play_token=53cebcce-198d-4ebb-aaf3-37049f7e704c  2023-05-14 14:24:04 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  661.23ms DONE
+  2023-05-14 14:24:05 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BigAtlantisFrenzy/FUN?play_token=d12f7680-e414-40e6-81f5-242c612c9c0d  2023-05-14 14:24:05 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  687.76ms DONE
+  2023-05-14 14:24:06 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CrazyStarter/FUN?play_token=f6c1d9b6-10f2-428c-9cf0-d6c7f385cdfe  2023-05-14 14:24:06 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  529.60ms DONE
+  2023-05-14 14:24:06 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BookOfCatsMegaways/FUN?play_token=fd6e737a-894a-456e-91ab-511d36c56b9c  2023-05-14 14:24:08 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  1,461.20ms DONE
+  2023-05-14 14:24:08 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DomnitorsDeluxe/FUN?play_token=7c7643a9-9196-41dd-af80-7e13f795a986  2023-05-14 14:24:09 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  682.12ms DONE
+  2023-05-14 14:24:09 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/HelloEaster/FUN?play_token=5c31f814-d33f-440e-80c1-4708909e25d7  2023-05-14 14:24:10 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  686.10ms DONE
+  2023-05-14 14:24:10 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CherryFiesta/FUN?play_token=e09a9702-e620-47b4-8da3-bcf8710cc990  2023-05-14 14:24:10 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  642.94ms DONE
+  2023-05-14 14:24:11 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BeerBonanza/FUN?play_token=48cd2b14-28dc-4dd5-b0d4-f8d85daaf617  2023-05-14 14:24:11 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  758.52ms DONE
+  2023-05-14 14:24:12 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AlienFruits/FUN?play_token=dbf5ad64-3dba-4566-9c04-0dd397b25ec4  2023-05-14 14:24:12 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  526.20ms DONE
+  2023-05-14 14:24:13 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SweetRushMegaways/FUN?play_token=d8d60c91-52f9-4a32-95d5-fda8e72650ea  2023-05-14 14:24:13 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  536.62ms DONE
+  2023-05-14 14:24:13 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AztecMagicDeluxe/FUN?play_token=e0494f51-9226-42eb-99e5-0a954872edcf  2023-05-14 14:24:14 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  692.18ms DONE
+  2023-05-14 14:24:14 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BurningChilliX/FUN?play_token=829c95c3-dc7e-497c-94aa-0a0a6e30a562  2023-05-14 14:24:15 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  553.61ms DONE
+  2023-05-14 14:24:15 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JourneyFlirt/FUN?play_token=377fd142-2a37-435a-9d75-555c9f62b935  2023-05-14 14:24:16 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  601.60ms DONE
+  2023-05-14 14:24:16 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/EasterHeist/FUN?play_token=bec3823a-d8e2-4a27-8c72-294b791a726f  2023-05-14 14:24:16 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  645.00ms DONE
+  2023-05-14 14:24:17 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BitstarzBillion/FUN?play_token=eb4d9a4b-ceaf-446e-84d1-e9ca2eccb406  2023-05-14 14:24:17 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  679.46ms DONE
+  2023-05-14 14:24:18 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BookOfCats/FUN?play_token=db55155c-07c7-4903-ac77-0f387ce11d15  2023-05-14 14:24:18 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  775.14ms DONE
+  2023-05-14 14:24:19 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckySweets/FUN?play_token=ea51b310-05aa-40bf-9378-f3978135299b  2023-05-14 14:24:20 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  935.30ms DONE
+  2023-05-14 14:24:20 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FireLightning/FUN?play_token=38a0baec-6192-4a49-a2e4-f0a8ada9a8a3  2023-05-14 14:24:21 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  866.24ms DONE
+  2023-05-14 14:24:21 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SpaceXY/FUN?play_token=73891d30-d68a-4984-b79f-e6578dc0526d  2023-05-14 14:24:22 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  656.83ms DONE
+  2023-05-14 14:24:22 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/MissCherryFruits/FUN?play_token=3ff66194-466a-4e5e-a37a-bf87f18a5fe3  2023-05-14 14:24:22 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  521.41ms DONE
+  2023-05-14 14:24:23 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Avalon/FUN?play_token=714e7128-22f1-4c07-84f3-67e061ef876f  2023-05-14 14:24:23 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  955.49ms DONE
+  2023-05-14 14:24:24 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CandyMonsta/FUN?play_token=d097c74c-24c7-4d1b-a5c3-a529f2895e2b  2023-05-14 14:24:25 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  945.90ms DONE
+  2023-05-14 14:24:25 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JogoDoBichoSimple/FUN?play_token=d96cdc25-f753-4871-a121-07c926c409d6  2023-05-14 14:24:26 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  714.52ms DONE
+  2023-05-14 14:24:26 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/WestTown/FUN?play_token=3734fee8-f37d-43a5-8d32-1d87faedeb9f  2023-05-14 14:24:27 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  671.49ms DONE
+  2023-05-14 14:24:27 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DomnitorsTreasure/FUN?play_token=d162c825-d86a-44b5-93ef-5d5dc30f5c1a  2023-05-14 14:24:29 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  2,271.64ms DONE
+  2023-05-14 14:24:29 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AllLuckyClover100/FUN?play_token=21de222d-bb50-4a96-8ad4-9ef329407c23  2023-05-14 14:24:30 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  719.12ms DONE
+  2023-05-14 14:24:30 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FortyFruityMillion/FUN?play_token=bec290a3-f44a-4f60-9068-19b5968798ff  2023-05-14 14:24:31 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  856.16ms DONE
+  2023-05-14 14:24:31 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BookOfKemet/FUN?play_token=994c7917-867b-4d94-9817-0fc86df6965a  2023-05-14 14:24:32 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  785.00ms DONE
+  2023-05-14 14:24:32 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Gangsterz/FUN?play_token=d0f615e4-11ba-444e-b81d-f26dbefac042  2023-05-14 14:24:33 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  673.91ms DONE
+  2023-05-14 14:24:33 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Minesweeper/FUN?play_token=a1871ac8-b4e8-4643-b77b-a5f260390c9b  2023-05-14 14:24:34 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  886.81ms DONE
+  2023-05-14 14:24:34 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/RoyalHighRoad/FUN?play_token=a5c1888f-9013-43a6-b5af-db7dfbf1ff22  2023-05-14 14:24:35 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  643.55ms DONE
+  2023-05-14 14:24:35 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BonanzaBillion/FUN?play_token=df3370d5-4ee2-4ba8-9cce-c8cd08337692  2023-05-14 14:24:36 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  743.88ms DONE
+  2023-05-14 14:24:36 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PlatinumLightningDeluxe/FUN?play_token=23370105-39d4-49a3-b079-1382541de14a  2023-05-14 14:24:37 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  801.73ms DONE
+  2023-05-14 14:24:37 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/RocketDice/FUN?play_token=3488bc6c-7310-4499-853b-7cd09da99b47  2023-05-14 14:24:38 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  681.95ms DONE
+  2023-05-14 14:24:38 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/MissCherryFruitsJackpotparty/FUN?play_token=f64a7c2d-db11-4714-abfc-40fd0c93d4d9  2023-05-14 14:24:39 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  712.07ms DONE
+  2023-05-14 14:24:39 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DragonsGold100/FUN?play_token=2e882b22-bb9c-4ddf-b415-40421659bbb8  2023-05-14 14:24:40 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  607.88ms DONE
+  2023-05-14 14:24:40 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DesertTreasure/FUN?play_token=c3753dcb-44b7-41dc-9070-66b1b0c8167c  2023-05-14 14:24:40 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  623.60ms DONE
+  2023-05-14 14:24:41 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AllLuckyClover5/FUN?play_token=a90e9f05-9d8f-4a1e-ae80-2cb1df86eafb  2023-05-14 14:24:41 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  728.30ms DONE
+  2023-05-14 14:24:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/ScratchDice/FUN?play_token=c91a2374-3015-4897-91f8-c637599d0523  2023-05-14 14:24:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  675.67ms DONE
+  2023-05-14 14:24:42 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/JohnnyCash/FUN?play_token=c4e138fd-1602-4801-a24e-249f424bef54  2023-05-14 14:24:43 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  987.26ms DONE
+  2023-05-14 14:24:44 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyBlue/FUN?play_token=0f75ad6c-f512-4094-88d7-64804d686d53  2023-05-14 14:24:44 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  505.28ms DONE
+  2023-05-14 14:24:44 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/GoldRushFrog/FUN?play_token=d842fc92-b48d-4082-9cb2-e54484e9445e  2023-05-14 14:24:45 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  505.94ms DONE
+  2023-05-14 14:24:45 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FrenchRoulette/FUN?play_token=7e05e995-cff6-43e5-853d-e33d988c2295  2023-05-14 14:24:46 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  621.73ms DONE
+  2023-05-14 14:24:46 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PrincessRoyal/FUN?play_token=9c24513b-c1b3-44d0-bdac-8d18e2dd68f8  2023-05-14 14:24:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  774.81ms DONE
+  2023-05-14 14:24:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/HalloweenBonanza/FUN?play_token=eb77bf9e-0ade-429f-8dde-1147480c476e  2023-05-14 14:24:47 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  555.80ms DONE
+  2023-05-14 14:24:48 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/DoubleExposure/FUN?play_token=f0f16d70-90c2-4817-b702-bf6475c221af  2023-05-14 14:24:49 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  790.47ms DONE
+  2023-05-14 14:24:49 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/HitTheRoute/FUN?play_token=20557df5-0f22-4e69-abc0-4aea7bfb756f  2023-05-14 14:24:49 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  712.56ms DONE
+  2023-05-14 14:24:50 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AllLuckyClover40/FUN?play_token=b1365ea3-83ff-4021-a2e6-bb4755899754  2023-05-14 14:24:51 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  844.16ms DONE
+  2023-05-14 14:24:51 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/WbcRingOfRiches/FUN?play_token=ef86d4ad-b542-400f-9715-4614a7cbb8a7  2023-05-14 14:24:51 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  571.47ms DONE
+  2023-05-14 14:24:52 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyFarmBonanza/FUN?play_token=9bea6123-db96-4f2d-bbf2-06a48a280b2c  2023-05-14 14:24:52 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  693.03ms DONE
+  2023-05-14 14:24:52 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyLadyClover/FUN?play_token=83e5118a-ccbf-4d33-9d25-ee554c8b5d03  2023-05-14 14:24:53 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  742.06ms DONE
+  2023-05-14 14:24:53 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PotionSpells/FUN?play_token=b8cc161e-a4b2-4bf3-82ee-a57f3fbffb28  2023-05-14 14:24:54 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  720.08ms DONE
+  2023-05-14 14:24:54 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/EuropeanRoulette/FUN?play_token=5dc700ba-762a-420d-b02c-ae203db384e4  2023-05-14 14:24:55 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  531.07ms DONE
+  2023-05-14 14:24:55 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CaribbeanPoker/FUN?play_token=520f476b-2018-41ed-bf33-26abc1a55935  2023-05-14 14:24:56 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  821.27ms DONE
+  2023-05-14 14:24:56 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PennyPelican/FUN?play_token=5f11c4d0-3bb9-40c1-92eb-092d53fdeaef  2023-05-14 14:24:57 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  546.24ms DONE
+  2023-05-14 14:24:57 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/GoldRushWithJohnny/FUN?play_token=34103de5-bb7a-4591-be74-eb99365c8b80  2023-05-14 14:24:58 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  676.05ms DONE
+  2023-05-14 14:24:58 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/PlatinumLightning/FUN?play_token=8b2d52ff-bacb-4d1a-bea4-c6175d42a910  2023-05-14 14:24:58 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  592.50ms DONE
+  2023-05-14 14:24:59 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Domnitors/FUN?play_token=06788b27-df7c-4d73-83d1-eeb4c9c28f7e  2023-05-14 14:24:59 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  555.24ms DONE
+  2023-05-14 14:24:59 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Baccarat/FUN?play_token=01150989-403b-454c-858c-afb20225632a  2023-05-14 14:25:00 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  579.67ms DONE
+  2023-05-14 14:25:00 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AztecMagicBonanza/FUN?play_token=9f1c236d-35ad-4c01-b837-fbb8cca3e045  2023-05-14 14:25:01 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  656.55ms DONE
+  2023-05-14 14:25:01 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AllLuckyClover/FUN?play_token=de4095ae-1938-4973-ad24-b3fb3593d701  2023-05-14 14:25:02 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  667.28ms DONE
+  2023-05-14 14:25:02 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/SpinAndSpell/FUN?play_token=9e1079bb-810a-4217-9f55-7b50de3b03ea  2023-05-14 14:25:03 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  774.08ms DONE
+  2023-05-14 14:25:03 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyDamaMuerta/FUN?play_token=88ec25a9-f12e-43ad-a5bb-a3a39593f45d  2023-05-14 14:25:04 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  786.09ms DONE
+  2023-05-14 14:25:04 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Pontoon/FUN?play_token=82995fbb-1cff-4a10-a00c-e87288378fde  2023-05-14 14:25:05 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  530.24ms DONE
+  2023-05-14 14:25:05 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/ElvisFrog/FUN?play_token=ef0daddd-eece-4345-bf57-4bf359af13b4  2023-05-14 14:25:05 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  590.99ms DONE
+  2023-05-14 14:25:06 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/WildCashX9990/FUN?play_token=8ac11661-e942-42e9-9ace-fc7da349453b  2023-05-14 14:25:06 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  609.12ms DONE
+  2023-05-14 14:25:07 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FantasyPark/FUN?play_token=a7b605be-3515-4fff-879d-8b2612990b79  2023-05-14 14:25:07 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  834.75ms DONE
+  2023-05-14 14:25:08 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/WildCash/FUN?play_token=bebfa316-a0d4-4f5c-8445-9eaee0f765d0  2023-05-14 14:25:08 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  766.45ms DONE
+  2023-05-14 14:25:09 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyOak/FUN?play_token=187a4fbb-7eee-460e-bdd6-4c52b9a3b093  2023-05-14 14:25:10 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  1,711.16ms DONE
+  2023-05-14 14:25:11 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AmericanRoulette/FUN?play_token=3823bca8-ea15-4af4-aeba-0ec346298427  2023-05-14 14:25:11 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  795.30ms DONE
+  2023-05-14 14:25:12 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/CandyStarz/FUN?play_token=6621d4fc-89cb-4876-a16d-7c4b12614dde  2023-05-14 14:25:12 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  795.75ms DONE
+  2023-05-14 14:25:13 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/GiftRush/FUN?play_token=5aa4bb90-ba51-4b54-bf0b-64c2024d7012  2023-05-14 14:25:13 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  673.32ms DONE
+  2023-05-14 14:25:14 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/Soccermania/FUN?play_token=cfa0671d-171a-4673-84e7-ba165a81d7ad  2023-05-14 14:25:14 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  559.47ms DONE
+  2023-05-14 14:25:14 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FourLuckyDiamonds/FUN?play_token=817190cd-8ff2-4972-8fe8-3d3a417f7ed9  2023-05-14 14:25:15 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  745.83ms DONE
+  2023-05-14 14:25:15 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/LuckyLadyMoonMegaways/FUN?play_token=a7084d96-43cf-4107-aa35-492635bded92  2023-05-14 14:25:16 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  779.15ms DONE
+  2023-05-14 14:25:16 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/AlohaKingElvis/FUN?play_token=43abd81d-5005-453d-b041-8a11dfb98ec0  2023-05-14 14:25:17 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  670.89ms DONE
+  2023-05-14 14:25:17 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/FourLuckyClover/FUN?play_token=4f025529-6e39-4ac0-9d3a-d511d04caaf0  2023-05-14 14:25:19 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  1,763.87ms DONE
+  2023-05-14 14:25:19 Northplay\NorthplayApi\Jobs\GetDirectDemoLink .. RUNNING
+https://demo.bgaming-network.com/games/BlackjackPro/FUN?play_token=3ea0c163-47b7-481f-8907-5487cd9dee06  2023-05-14 14:25:20 Northplay\NorthplayApi\Jobs\GetDirectDemoLink  730.43ms DONE
+  2023-05-14 14:26:20 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:26:20 Northplay\NorthplayApi\Jobs\CreateSession . 50.46ms DONE
+  2023-05-14 14:26:20 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:26:21 Northplay\NorthplayApi\Jobs\CreateGameSession  323.71ms DONE
+  2023-05-14 14:28:46 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:28:46 Northplay\NorthplayApi\Jobs\CreateSession . 49.90ms DONE
+  2023-05-14 14:28:46 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:28:46 Northplay\NorthplayApi\Jobs\CreateGameSession  313.11ms DONE
+  2023-05-14 14:31:15 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:31:15 Northplay\NorthplayApi\Jobs\CreateSession . 53.26ms DONE
+  2023-05-14 14:31:15 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:31:16 Northplay\NorthplayApi\Jobs\CreateGameSession  285.11ms DONE
+  2023-05-14 14:34:26 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:34:26 Northplay\NorthplayApi\Jobs\CreateSession . 84.06ms DONE
+  2023-05-14 14:34:26 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:34:27 Northplay\NorthplayApi\Jobs\CreateGameSession  292.09ms DONE
+  2023-05-14 14:37:28 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:37:28 Northplay\NorthplayApi\Jobs\CreateSession . 64.73ms DONE
+  2023-05-14 14:37:28 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:37:29 Northplay\NorthplayApi\Jobs\CreateGameSession  329.53ms DONE
+  2023-05-14 14:38:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:38:24 Northplay\NorthplayApi\Jobs\CreateSession . 54.44ms DONE
+  2023-05-14 14:38:25 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:38:25 Northplay\NorthplayApi\Jobs\CreateGameSession  321.25ms DONE
+  2023-05-14 14:59:33 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:59:33 Northplay\NorthplayApi\Jobs\CreateSession . 90.22ms DONE
+  2023-05-14 14:59:33 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:59:34 Northplay\NorthplayApi\Jobs\CreateGameSession  367.46ms DONE
+  2023-05-14 14:59:58 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 14:59:58 Northplay\NorthplayApi\Jobs\CreateSession . 82.38ms DONE
+  2023-05-14 14:59:59 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 14:59:59 Northplay\NorthplayApi\Jobs\CreateGameSession  308.29ms DONE
+  2023-05-14 15:02:21 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:02:21 Northplay\NorthplayApi\Jobs\CreateSession  396.10ms DONE
+  2023-05-14 15:02:23 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:02:24 Northplay\NorthplayApi\Jobs\CreateGameSession  437.52ms DONE
+  2023-05-14 15:12:39 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:12:39 Northplay\NorthplayApi\Jobs\CreateSession . 52.97ms DONE
+  2023-05-14 15:12:39 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:12:39 Northplay\NorthplayApi\Jobs\CreateGameSession  264.60ms DONE
+  2023-05-14 15:13:28 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:13:28 Northplay\NorthplayApi\Jobs\CreateSession . 63.94ms DONE
+  2023-05-14 15:13:28 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:13:28 Northplay\NorthplayApi\Jobs\CreateGameSession  266.88ms DONE
+  2023-05-14 15:15:38 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:15:38 Northplay\NorthplayApi\Jobs\CreateSession . 68.73ms DONE
+  2023-05-14 15:15:38 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:15:38 Northplay\NorthplayApi\Jobs\CreateGameSession  259.74ms DONE
+  2023-05-14 15:23:44 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:23:44 Northplay\NorthplayApi\Jobs\CreateSession . 60.76ms DONE
+  2023-05-14 15:23:44 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:23:45 Northplay\NorthplayApi\Jobs\CreateGameSession  815.75ms DONE
+  2023-05-14 15:24:49 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:24:49 Northplay\NorthplayApi\Jobs\CreateSession . 86.51ms DONE
+  2023-05-14 15:24:49 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:24:49 Northplay\NorthplayApi\Jobs\CreateGameSession  439.54ms DONE
+  2023-05-14 15:25:32 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:25:32 Northplay\NorthplayApi\Jobs\CreateSession . 58.99ms DONE
+  2023-05-14 15:25:32 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:25:33 Northplay\NorthplayApi\Jobs\CreateGameSession  289.04ms DONE
+  2023-05-14 15:30:08 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:30:08 Northplay\NorthplayApi\Jobs\CreateSession . 66.78ms DONE
+  2023-05-14 15:30:08 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:30:09 Northplay\NorthplayApi\Jobs\CreateGameSession  396.18ms DONE
+  2023-05-14 15:30:12 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:30:12 Northplay\NorthplayApi\Jobs\CreateSession . 57.48ms DONE
+  2023-05-14 15:30:12 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:30:13 Northplay\NorthplayApi\Jobs\CreateGameSession  331.72ms DONE
+  2023-05-14 15:30:52 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:30:52 Northplay\NorthplayApi\Jobs\CreateSession . 57.72ms DONE
+  2023-05-14 15:30:52 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:30:52 Northplay\NorthplayApi\Jobs\CreateGameSession  274.45ms DONE
+  2023-05-14 15:30:56 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:30:56 Northplay\NorthplayApi\Jobs\CreateSession . 49.00ms DONE
+  2023-05-14 15:30:56 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:30:57 Northplay\NorthplayApi\Jobs\CreateGameSession  266.06ms DONE
+  2023-05-14 15:31:26 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:31:26 Northplay\NorthplayApi\Jobs\CreateSession . 45.09ms DONE
+  2023-05-14 15:31:26 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:31:27 Northplay\NorthplayApi\Jobs\CreateGameSession  265.92ms DONE
+  2023-05-14 15:31:49 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:31:49 Northplay\NorthplayApi\Jobs\CreateSession . 47.67ms DONE
+  2023-05-14 15:31:50 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:31:50 Northplay\NorthplayApi\Jobs\CreateGameSession  299.94ms DONE
+  2023-05-14 15:32:29 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:32:29 Northplay\NorthplayApi\Jobs\CreateSession . 89.53ms DONE
+  2023-05-14 15:32:29 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:32:30 Northplay\NorthplayApi\Jobs\CreateGameSession  292.45ms DONE
+  2023-05-14 15:33:15 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:33:15 Northplay\NorthplayApi\Jobs\CreateSession . 51.87ms DONE
+  2023-05-14 15:33:16 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:33:16 Northplay\NorthplayApi\Jobs\CreateGameSession  273.69ms DONE
+  2023-05-14 15:33:35 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:33:35 Northplay\NorthplayApi\Jobs\CreateSession . 56.60ms DONE
+  2023-05-14 15:33:36 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:33:36 Northplay\NorthplayApi\Jobs\CreateGameSession  274.20ms DONE
+  2023-05-14 15:34:02 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:34:02 Northplay\NorthplayApi\Jobs\CreateSession . 55.28ms DONE
+  2023-05-14 15:34:03 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:34:03 Northplay\NorthplayApi\Jobs\CreateGameSession  258.73ms DONE
+  2023-05-14 15:34:09 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:34:09 Northplay\NorthplayApi\Jobs\CreateSession . 45.77ms DONE
+  2023-05-14 15:34:10 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:34:10 Northplay\NorthplayApi\Jobs\CreateGameSession  270.35ms DONE
+  2023-05-14 15:34:58 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:34:58 Northplay\NorthplayApi\Jobs\CreateSession . 52.13ms DONE
+  2023-05-14 15:34:59 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:34:59 Northplay\NorthplayApi\Jobs\CreateGameSession  273.84ms DONE
+  2023-05-14 15:37:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:37:24 Northplay\NorthplayApi\Jobs\CreateSession . 57.26ms DONE
+  2023-05-14 15:37:24 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:37:24 Northplay\NorthplayApi\Jobs\CreateGameSession  267.52ms DONE
+  2023-05-14 15:47:27 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:47:27 Northplay\NorthplayApi\Jobs\CreateSession . 50.43ms DONE
+  2023-05-14 15:47:27 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:47:28 Northplay\NorthplayApi\Jobs\CreateGameSession  282.79ms DONE
+  2023-05-14 15:47:44 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:47:45 Northplay\NorthplayApi\Jobs\CreateSession . 61.38ms DONE
+  2023-05-14 15:47:45 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:47:45 Northplay\NorthplayApi\Jobs\CreateGameSession  331.61ms DONE
+  2023-05-14 15:48:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:48:24 Northplay\NorthplayApi\Jobs\CreateSession . 57.06ms DONE
+  2023-05-14 15:48:24 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:48:25 Northplay\NorthplayApi\Jobs\CreateGameSession  358.05ms DONE
+  2023-05-14 15:49:07 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:49:07 Northplay\NorthplayApi\Jobs\CreateSession . 53.06ms DONE
+  2023-05-14 15:49:07 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:49:07 Northplay\NorthplayApi\Jobs\CreateGameSession  313.62ms DONE
+  2023-05-14 15:54:40 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:54:40 Northplay\NorthplayApi\Jobs\CreateSession . 58.75ms DONE
+  2023-05-14 15:54:47 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:54:47 Northplay\NorthplayApi\Jobs\CreateSession . 68.86ms DONE
+  2023-05-14 15:54:51 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:54:51 Northplay\NorthplayApi\Jobs\CreateSession . 55.14ms DONE
+  2023-05-14 15:56:51 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 15:56:51 Northplay\NorthplayApi\Jobs\CreateSession . 56.10ms DONE
+  2023-05-14 15:56:51 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 15:56:52 Northplay\NorthplayApi\Jobs\CreateGameSession  270.84ms DONE
+  2023-05-14 16:23:25 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 16:23:25 Northplay\NorthplayApi\Jobs\CreateSession . 45.67ms DONE
+  2023-05-14 16:24:36 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 16:24:36 Northplay\NorthplayApi\Jobs\CreateSession . 57.93ms DONE
+  2023-05-14 16:24:37 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 16:24:37 Northplay\NorthplayApi\Jobs\CreateGameSession  275.03ms DONE
+  2023-05-14 17:41:53 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:41:53 Northplay\NorthplayApi\Jobs\CreateSession . 50.58ms DONE
+  2023-05-14 17:41:53 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:41:53 Northplay\NorthplayApi\Jobs\CreateGameSession  297.34ms DONE
+  2023-05-14 17:44:42 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:44:42 Northplay\NorthplayApi\Jobs\CreateGameSession  249.73ms DONE
+  2023-05-14 17:46:16 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:46:16 Northplay\NorthplayApi\Jobs\CreateSession . 62.34ms DONE
+  2023-05-14 17:47:21 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:47:21 Northplay\NorthplayApi\Jobs\CreateSession . 58.64ms DONE
+  2023-05-14 17:47:21 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:47:21 Northplay\NorthplayApi\Jobs\CreateGameSession  291.51ms DONE
+  2023-05-14 17:54:36 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:54:37 Northplay\NorthplayApi\Jobs\CreateSession . 67.83ms DONE
+  2023-05-14 17:54:37 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:54:37 Northplay\NorthplayApi\Jobs\CreateGameSession  290.56ms DONE
+  2023-05-14 17:55:45 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:55:45 Northplay\NorthplayApi\Jobs\CreateSession . 74.14ms DONE
+  2023-05-14 17:56:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:56:24 Northplay\NorthplayApi\Jobs\CreateSession . 47.09ms DONE
+  2023-05-14 17:57:36 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:57:36 Northplay\NorthplayApi\Jobs\CreateSession . 68.94ms DONE
+  2023-05-14 17:57:36 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:57:36 Northplay\NorthplayApi\Jobs\CreateGameSession  295.02ms DONE
+  2023-05-14 17:58:54 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 17:58:54 Northplay\NorthplayApi\Jobs\CreateSession . 66.94ms DONE
+  2023-05-14 17:58:54 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 17:58:54 Northplay\NorthplayApi\Jobs\CreateGameSession  274.01ms DONE
+  2023-05-14 18:21:50 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:21:50 Northplay\NorthplayApi\Jobs\CreateSession . 60.60ms DONE
+  2023-05-14 18:21:50 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:21:50 Northplay\NorthplayApi\Jobs\CreateGameSession  316.05ms DONE
+  2023-05-14 18:24:49 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:24:49 Northplay\NorthplayApi\Jobs\CreateSession . 52.84ms DONE
+  2023-05-14 18:24:49 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:24:50 Northplay\NorthplayApi\Jobs\CreateGameSession  583.36ms DONE
+  2023-05-14 18:25:52 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:25:52 Northplay\NorthplayApi\Jobs\CreateSession . 57.98ms DONE
+  2023-05-14 18:25:52 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:25:52 Northplay\NorthplayApi\Jobs\CreateGameSession  253.07ms DONE
+  2023-05-14 18:39:48 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:39:48 Northplay\NorthplayApi\Jobs\CreateSession . 62.74ms DONE
+  2023-05-14 18:39:48 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:39:48 Northplay\NorthplayApi\Jobs\CreateGameSession  37.70ms FAIL
+  2023-05-14 18:41:13 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:41:13 Northplay\NorthplayApi\Jobs\CreateSession . 56.62ms DONE
+  2023-05-14 18:41:14 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:41:15 Northplay\NorthplayApi\Jobs\CreateGameSession  1,124.50ms DONE
+  2023-05-14 18:41:41 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:41:41 Northplay\NorthplayApi\Jobs\CreateSession . 74.26ms DONE
+  2023-05-14 18:41:41 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:41:41 Northplay\NorthplayApi\Jobs\CreateGameSession  323.77ms DONE
+  2023-05-14 18:42:07 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:42:07 Northplay\NorthplayApi\Jobs\CreateSession . 47.28ms DONE
+  2023-05-14 18:42:08 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:42:08 Northplay\NorthplayApi\Jobs\CreateGameSession  305.43ms DONE
+  2023-05-14 18:44:53 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:44:53 Northplay\NorthplayApi\Jobs\CreateGameSession  252.04ms DONE
+  2023-05-14 18:56:50 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 18:56:50 Northplay\NorthplayApi\Jobs\CreateSession . 58.79ms DONE
+  2023-05-14 18:56:50 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 18:56:50 Northplay\NorthplayApi\Jobs\CreateGameSession  291.03ms DONE
+  2023-05-14 19:00:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:00:24 Northplay\NorthplayApi\Jobs\CreateSession . 52.68ms DONE
+  2023-05-14 19:00:24 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:00:24 Northplay\NorthplayApi\Jobs\CreateGameSession  292.31ms DONE
+  2023-05-14 19:05:39 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:05:39 Northplay\NorthplayApi\Jobs\CreateSession . 52.75ms DONE
+  2023-05-14 19:05:40 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:05:40 Northplay\NorthplayApi\Jobs\CreateGameSession  267.53ms DONE
+  2023-05-14 19:10:45 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:10:45 Northplay\NorthplayApi\Jobs\CreateSession . 48.11ms DONE
+  2023-05-14 19:15:37 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:15:37 Northplay\NorthplayApi\Jobs\CreateSession . 50.68ms DONE
+  2023-05-14 19:15:37 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:15:38 Northplay\NorthplayApi\Jobs\CreateGameSession  266.69ms DONE
+  2023-05-14 19:16:42 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:16:42 Northplay\NorthplayApi\Jobs\CreateSession . 65.27ms DONE
+  2023-05-14 19:17:02 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:17:02 Northplay\NorthplayApi\Jobs\CreateSession . 81.53ms DONE
+  2023-05-14 19:17:02 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:17:03 Northplay\NorthplayApi\Jobs\CreateGameSession  371.68ms DONE
+  2023-05-14 19:22:28 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:22:28 Northplay\NorthplayApi\Jobs\CreateSession . 53.65ms DONE
+  2023-05-14 19:22:28 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:22:29 Northplay\NorthplayApi\Jobs\CreateGameSession  283.81ms DONE
+  2023-05-14 19:22:55 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:22:55 Northplay\NorthplayApi\Jobs\CreateSession . 58.98ms DONE
+  2023-05-14 19:22:55 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:22:55 Northplay\NorthplayApi\Jobs\CreateGameSession  311.49ms DONE
+  2023-05-14 19:24:10 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:24:10 Northplay\NorthplayApi\Jobs\CreateSession . 56.01ms DONE
+  2023-05-14 19:24:46 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:24:46 Northplay\NorthplayApi\Jobs\CreateSession . 68.98ms DONE
+  2023-05-14 19:24:46 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:24:46 Northplay\NorthplayApi\Jobs\CreateGameSession  297.67ms DONE
+  2023-05-14 19:25:22 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:25:22 Northplay\NorthplayApi\Jobs\CreateSession . 47.81ms DONE
+  2023-05-14 19:26:04 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:26:04 Northplay\NorthplayApi\Jobs\CreateSession . 56.03ms DONE
+  2023-05-14 19:26:24 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:26:24 Northplay\NorthplayApi\Jobs\CreateSession . 52.87ms DONE
+  2023-05-14 19:26:24 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:26:25 Northplay\NorthplayApi\Jobs\CreateGameSession  302.75ms DONE
+  2023-05-14 19:28:11 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:28:11 Northplay\NorthplayApi\Jobs\CreateSession . 55.91ms DONE
+  2023-05-14 19:28:12 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:28:12 Northplay\NorthplayApi\Jobs\CreateGameSession  331.83ms DONE
+  2023-05-14 19:28:57 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:28:57 Northplay\NorthplayApi\Jobs\CreateSession . 56.92ms DONE
+  2023-05-14 19:28:57 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:28:58 Northplay\NorthplayApi\Jobs\CreateGameSession  255.59ms DONE
+  2023-05-14 19:32:27 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:32:27 Northplay\NorthplayApi\Jobs\CreateSession . 71.92ms DONE
+  2023-05-14 19:32:27 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:32:28 Northplay\NorthplayApi\Jobs\CreateGameSession  270.10ms DONE
+  2023-05-14 19:39:33 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:39:33 Northplay\NorthplayApi\Jobs\CreateSession . 67.53ms DONE
+  2023-05-14 19:39:33 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:39:34 Northplay\NorthplayApi\Jobs\CreateGameSession  298.45ms DONE
+  2023-05-14 19:39:53 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:39:53 Northplay\NorthplayApi\Jobs\CreateSession . 52.23ms DONE
+  2023-05-14 19:39:53 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:39:54 Northplay\NorthplayApi\Jobs\CreateGameSession  272.09ms DONE
+  2023-05-14 19:42:39 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:42:39 Northplay\NorthplayApi\Jobs\CreateGameSession  285.19ms DONE
+  2023-05-14 19:43:12 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:43:12 Northplay\NorthplayApi\Jobs\CreateSession . 67.93ms DONE
+  2023-05-14 19:43:44 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:43:44 Northplay\NorthplayApi\Jobs\CreateSession . 57.21ms DONE
+  2023-05-14 19:43:45 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:43:45 Northplay\NorthplayApi\Jobs\CreateGameSession  310.21ms DONE
+  2023-05-14 19:44:14 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:44:15 Northplay\NorthplayApi\Jobs\CreateGameSession  302.94ms DONE
+  2023-05-14 19:45:46 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:45:46 Northplay\NorthplayApi\Jobs\CreateGameSession  294.42ms DONE
+  2023-05-14 19:46:02 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:46:02 Northplay\NorthplayApi\Jobs\CreateSession . 66.29ms DONE
+  2023-05-14 19:46:03 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:46:03 Northplay\NorthplayApi\Jobs\CreateGameSession  281.91ms DONE
+  2023-05-14 19:46:48 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:46:48 Northplay\NorthplayApi\Jobs\CreateSession . 67.11ms DONE
+  2023-05-14 19:46:48 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:46:49 Northplay\NorthplayApi\Jobs\CreateGameSession  284.39ms DONE
+  2023-05-14 19:52:31 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:52:31 Northplay\NorthplayApi\Jobs\CreateSession . 60.74ms DONE
+  2023-05-14 19:52:31 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:52:31 Northplay\NorthplayApi\Jobs\CreateGameSession  256.79ms DONE
+  2023-05-14 19:53:07 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:53:07 Northplay\NorthplayApi\Jobs\CreateSession . 94.86ms DONE
+  2023-05-14 19:53:07 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:53:07 Northplay\NorthplayApi\Jobs\CreateGameSession  248.80ms DONE
+  2023-05-14 19:53:33 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 19:53:34 Northplay\NorthplayApi\Jobs\CreateSession . 62.28ms DONE
+  2023-05-14 19:53:34 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:53:34 Northplay\NorthplayApi\Jobs\CreateGameSession  250.31ms DONE
+  2023-05-14 19:56:00 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 19:56:00 Northplay\NorthplayApi\Jobs\CreateGameSession  285.86ms DONE
+  2023-05-14 20:01:23 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:01:24 Northplay\NorthplayApi\Jobs\CreateGameSession  252.15ms DONE
+  2023-05-14 20:02:28 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:02:28 Northplay\NorthplayApi\Jobs\CreateSession . 74.78ms DONE
+  2023-05-14 20:02:29 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:02:29 Northplay\NorthplayApi\Jobs\CreateGameSession  232.86ms DONE
+  2023-05-14 20:06:28 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:06:28 Northplay\NorthplayApi\Jobs\CreateSession . 63.37ms DONE
+  2023-05-14 20:06:28 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:06:28 Northplay\NorthplayApi\Jobs\CreateGameSession  249.88ms DONE
+  2023-05-14 20:09:06 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:09:06 Northplay\NorthplayApi\Jobs\CreateSession . 57.42ms DONE
+  2023-05-14 20:10:22 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:10:22 Northplay\NorthplayApi\Jobs\CreateSession . 59.45ms DONE
+  2023-05-14 20:10:22 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:10:22 Northplay\NorthplayApi\Jobs\CreateGameSession  324.37ms DONE
+  2023-05-14 20:15:29 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:15:29 Northplay\NorthplayApi\Jobs\CreateSession . 56.78ms DONE
+  2023-05-14 20:22:53 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:22:53 Northplay\NorthplayApi\Jobs\CreateSession . 53.87ms DONE
+  2023-05-14 20:23:01 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:23:01 Northplay\NorthplayApi\Jobs\CreateSession . 88.35ms DONE
+  2023-05-14 20:23:16 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:23:16 Northplay\NorthplayApi\Jobs\CreateSession . 57.83ms DONE
+  2023-05-14 20:23:23 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:23:23 Northplay\NorthplayApi\Jobs\CreateSession  103.87ms DONE
+  2023-05-14 20:23:25 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:23:25 Northplay\NorthplayApi\Jobs\CreateSession . 50.26ms DONE
+  2023-05-14 20:24:22 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:24:22 Northplay\NorthplayApi\Jobs\CreateSession . 62.49ms DONE
+  2023-05-14 20:24:34 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:24:35 Northplay\NorthplayApi\Jobs\CreateSession . 63.34ms DONE
+  2023-05-14 20:25:51 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:25:52 Northplay\NorthplayApi\Jobs\CreateGameSession  286.37ms DONE
+  2023-05-14 20:26:12 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:26:12 Northplay\NorthplayApi\Jobs\CreateGameSession  251.89ms DONE
+  2023-05-14 20:26:33 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:26:33 Northplay\NorthplayApi\Jobs\CreateGameSession  270.29ms DONE
+  2023-05-14 20:26:42 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:26:42 Northplay\NorthplayApi\Jobs\CreateGameSession  270.96ms DONE
+  2023-05-14 20:32:54 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:32:54 Northplay\NorthplayApi\Jobs\CreateGameSession  227.02ms DONE
+  2023-05-14 20:33:45 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:33:45 Northplay\NorthplayApi\Jobs\CreateGameSession  295.58ms DONE
+  2023-05-14 20:35:32 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:35:33 Northplay\NorthplayApi\Jobs\CreateGameSession  295.97ms DONE
+  2023-05-14 20:35:47 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:35:47 Northplay\NorthplayApi\Jobs\CreateGameSession  250.45ms DONE
+  2023-05-14 20:35:59 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:36:00 Northplay\NorthplayApi\Jobs\CreateGameSession  252.50ms DONE
+  2023-05-14 20:36:31 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:36:31 Northplay\NorthplayApi\Jobs\CreateSession . 47.39ms DONE
+  2023-05-14 20:37:47 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:37:47 Northplay\NorthplayApi\Jobs\CreateSession . 50.84ms DONE
+  2023-05-14 20:37:47 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:37:47 Northplay\NorthplayApi\Jobs\CreateGameSession  270.58ms DONE
+  2023-05-14 20:38:06 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:38:06 Northplay\NorthplayApi\Jobs\CreateSession . 47.90ms DONE
+  2023-05-14 20:38:50 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-14 20:38:50 Northplay\NorthplayApi\Jobs\CreateSession . 93.30ms DONE
+  2023-05-14 20:38:50 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:38:51 Northplay\NorthplayApi\Jobs\CreateGameSession  275.06ms DONE
+  2023-05-14 20:39:04 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:39:04 Northplay\NorthplayApi\Jobs\CreateGameSession  239.95ms DONE
+  2023-05-14 20:39:17 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:39:17 Northplay\NorthplayApi\Jobs\CreateGameSession  232.66ms DONE
+  2023-05-14 20:39:31 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-14 20:39:31 Northplay\NorthplayApi\Jobs\CreateGameSession  281.94ms DONE
+
+In Process.php line 434:
+                                                  
+  The process has been signaled with signal "1".  
+                                                  
+
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+  2023-05-25 23:10:00 ................................................... ~ 0s
+  2023-05-25 23:10:15 ................................................... ~ 1s
+  2023-05-25 23:10:18 ................................................... ~ 0s
+  2023-05-25 23:10:31 ................................................... ~ 0s
+  2023-05-25 23:10:35 ................................................... ~ 0s
+  2023-05-25 23:10:35 ................................................... ~ 0s
+  2023-05-25 23:10:35 ................................................... ~ 0s
+  2023-05-25 23:10:35 ................................................... ~ 1s
+  2023-05-25 23:10:49 ................................................... ~ 0s
+
+   INFO  Environment modified. Restarting server...  
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+  2023-05-25 23:11:19 ................................................... ~ 1s
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 334.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 394.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 405.  
+
+  2023-05-25 23:11:21 ................................................... ~ 0s
+  2023-05-25 23:11:21 ................................................... ~ 0s
+  2023-05-25 23:11:23 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-25 23:11:23 Northplay\NorthplayApi\Jobs\CreateSession . 72.55ms DONE
+  2023-05-25 23:11:23 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-25 23:11:23 Northplay\NorthplayApi\Jobs\CreateGameSession  124.25ms DONE
+  2023-05-25 23:11:23 ................................................... ~ 0s
+  2023-05-25 23:11:25 ................................................... ~ 0s
+  2023-05-25 23:11:36 ................................................... ~ 0s
+  2023-05-25 23:11:36 ................................................... ~ 0s
+  2023-05-25 23:11:39 ................................................... ~ 0s
+  2023-05-25 23:11:43 ................................................... ~ 0s
+  2023-05-25 23:11:49 ................................................... ~ 0s
+  2023-05-25 23:11:49 ................................................... ~ 0s
+  2023-05-25 23:11:49 ................................................... ~ 0s
+  2023-05-25 23:11:50 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-25 23:11:50 Northplay\NorthplayApi\Jobs\CreateSession . 65.27ms DONE
+  2023-05-25 23:11:50 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-25 23:11:50 Northplay\NorthplayApi\Jobs\CreateGameSession  100.45ms DONE
+  2023-05-25 23:11:50 ................................................... ~ 0s
+  2023-05-25 23:11:53 ................................................... ~ 0s
+  2023-05-25 23:11:59 ................................................... ~ 0s
+  2023-05-25 23:11:59 ................................................... ~ 0s
+  2023-05-25 23:12:01 ................................................... ~ 0s
+  2023-05-25 23:12:03 ................................................... ~ 0s
+  2023-05-25 23:12:36 ................................................... ~ 0s
+  2023-05-25 23:12:37 ................................................... ~ 0s
+  2023-05-25 23:12:39 ................................................... ~ 0s
+  2023-05-25 23:12:40 ................................................... ~ 0s
+  2023-05-25 23:12:41 ................................................... ~ 0s
+  2023-05-25 23:12:42 ................................................... ~ 0s
+  2023-05-25 23:12:42 ................................................... ~ 0s
+  2023-05-25 23:12:44 ................................................... ~ 0s
+  2023-05-25 23:12:45 ................................................... ~ 0s
+  2023-05-25 23:12:45 ................................................... ~ 1s
+  2023-05-25 23:12:47 ................................................... ~ 0s
+  2023-05-25 23:12:48 ................................................... ~ 0s
+  2023-05-25 23:12:49 ................................................... ~ 0s
+  2023-05-25 23:12:51 ................................................... ~ 0s
+  2023-05-25 23:12:52 ................................................... ~ 0s
+  2023-05-25 23:12:54 ................................................... ~ 0s
+  2023-05-25 23:12:55 ................................................... ~ 0s
+  2023-05-25 23:12:56 ................................................... ~ 0s
+  2023-05-25 23:12:58 ................................................... ~ 0s
+  2023-05-25 23:13:00 ................................................... ~ 0s
+  2023-05-25 23:13:05 ................................................... ~ 0s
+  2023-05-25 23:13:06 ................................................... ~ 0s
+  2023-05-25 23:13:09 ................................................... ~ 0s
+  2023-05-25 23:13:11 ................................................... ~ 0s
+  2023-05-25 23:13:11 ................................................... ~ 0s
+  2023-05-25 23:13:12 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-25 23:13:12 Northplay\NorthplayApi\Jobs\CreateSession . 14.57ms DONE
+  2023-05-25 23:13:12 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-25 23:13:12 ................................................... ~ 0s
+  2023-05-25 23:13:12 Northplay\NorthplayApi\Jobs\CreateGameSession  135.54ms DONE
+  2023-05-25 23:13:14 ................................................... ~ 1s
+  2023-05-25 23:13:19 ................................................... ~ 0s
+  2023-05-25 23:13:19 ................................................... ~ 0s
+  2023-05-25 23:13:26 ................................................... ~ 0s
+  2023-05-25 23:13:35 ................................................... ~ 0s
+  2023-05-25 23:13:38 ................................................... ~ 0s
+  2023-05-25 23:13:38 ................................................... ~ 0s
+  2023-05-25 23:13:40 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-25 23:13:40 Northplay\NorthplayApi\Jobs\CreateSession . 13.43ms DONE
+  2023-05-25 23:13:40 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-25 23:13:40 Northplay\NorthplayApi\Jobs\CreateGameSession  106.39ms DONE
+  2023-05-25 23:13:40 ................................................... ~ 0s
+  2023-05-25 23:13:41 ................................................... ~ 1s
+  2023-05-25 23:13:42 ................................................... ~ 0s
+  2023-05-25 23:13:42 ................................................... ~ 0s
+  2023-05-25 23:13:43 ................................................... ~ 0s
+  2023-05-25 23:13:44 ................................................... ~ 0s
+  2023-05-25 23:13:44 ................................................... ~ 0s
+  2023-05-25 23:13:45 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-25 23:13:45 Northplay\NorthplayApi\Jobs\CreateSession . 14.37ms DONE
+  2023-05-25 23:13:45 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-25 23:13:45 Northplay\NorthplayApi\Jobs\CreateGameSession  106.19ms DONE
+  2023-05-25 23:13:45 ................................................... ~ 0s
+  2023-05-25 23:13:48 ................................................... ~ 0s
+  2023-05-26 06:58:57 ................................................... ~ 0s
+  2023-05-26 06:58:58 ................................................... ~ 0s
+  2023-05-26 06:58:58 ................................................... ~ 0s
+  2023-05-26 06:58:58 ................................................... ~ 0s
+  2023-05-26 06:58:58 ................................................... ~ 0s
+  2023-05-26 06:59:06 ................................................... ~ 0s
+  2023-05-26 06:59:07 ................................................... ~ 0s
+  2023-05-26 06:59:08 ................................................... ~ 0s
+  2023-05-26 06:59:12 ................................................... ~ 0s
+  2023-05-26 06:59:12 ................................................... ~ 0s
+  2023-05-26 06:59:12 ................................................... ~ 1s
+  2023-05-26 06:59:13 ................................................... ~ 0s
+  2023-05-26 06:59:14 ................................................... ~ 1s
+  2023-05-26 06:59:18 ................................................... ~ 0s
+  2023-05-26 06:59:24 ................................................... ~ 1s
+  2023-05-26 06:59:25 ................................................... ~ 0s
+  2023-05-26 06:59:26 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-26 06:59:26 Northplay\NorthplayApi\Jobs\CreateSession . 13.79ms DONE
+  2023-05-26 06:59:26 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-26 06:59:26 Northplay\NorthplayApi\Jobs\CreateGameSession  127.35ms DONE
+  2023-05-26 06:59:26 ................................................... ~ 0s
+  2023-05-26 06:59:28 ................................................... ~ 0s
+  2023-05-26 06:59:41 ................................................... ~ 0s
+  2023-05-26 06:59:42 ................................................... ~ 0s
+  2023-05-26 07:20:57 ................................................... ~ 1s
+  2023-05-26 07:27:41 ................................................... ~ 0s
+  2023-05-26 08:01:08 ................................................... ~ 1s
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+
+   INFO  Server running on [http://127.0.0.1:10800].  
+
+  Press Ctrl+C to stop the server
+
+  2023-05-26 15:38:25 ................................................... ~ 0s
+  2023-05-26 15:38:25 ................................................... ~ 0s
+  2023-05-26 15:38:26 ................................................... ~ 0s
+  2023-05-26 15:38:26 ................................................... ~ 0s
+  2023-05-26 15:38:56 ................................................... ~ 0s
+  2023-05-26 15:39:06 ................................................... ~ 0s
+  2023-05-26 15:39:10 ................................................... ~ 0s
+  2023-05-26 15:39:15 ................................................... ~ 0s
+  2023-05-26 15:39:21 ................................................... ~ 0s
+  2023-05-26 15:39:25 ................................................... ~ 0s
+  2023-05-26 15:39:26 ................................................... ~ 0s
+  2023-05-26 15:39:31 ................................................... ~ 0s
+  2023-05-26 15:39:47 ................................................... ~ 0s
+  2023-05-26 15:40:00 ................................................... ~ 0s
+  2023-05-26 15:40:11 ................................................... ~ 0s
+  2023-05-26 15:40:32 ................................................... ~ 0s
+  2023-05-26 15:40:55 ................................................... ~ 0s
+  2023-05-26 15:41:31 ................................................... ~ 0s
+  2023-05-26 15:41:42 ................................................... ~ 0s
+  2023-05-26 15:44:10 ................................................... ~ 0s
+  2023-05-26 15:44:17 ................................................... ~ 0s
+  2023-05-26 15:45:11 ................................................... ~ 0s
+  2023-05-26 15:49:30 ................................................... ~ 0s
+  2023-05-26 15:51:52 ................................................... ~ 0s
+  2023-05-26 15:53:06 ................................................... ~ 0s
+  2023-05-26 15:54:08 ................................................... ~ 0s
+  2023-05-26 15:54:18 ................................................... ~ 0s
+  2023-05-26 15:54:19 ................................................... ~ 1s
+  2023-05-26 15:54:26 ................................................... ~ 0s
+  2023-05-26 15:54:35 ................................................... ~ 0s
+  2023-05-26 15:54:36 ................................................... ~ 1s
+  2023-05-26 15:54:43 ................................................... ~ 0s
+  2023-05-26 15:54:43 ................................................... ~ 0s
+  2023-05-26 15:54:43 ................................................... ~ 0s
+  2023-05-26 15:54:43 ................................................... ~ 0s
+  2023-05-26 15:54:43 ................................................... ~ 1s
+  2023-05-26 15:54:45 ................................................... ~ 1s
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 334.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 394.  
+
+   WARN  PHP Deprecated: Using ${var} in strings is deprecated, use {$var} instead in northplay/northplay-api/src/Controllers/Integrations/GatewayTrait.php on line 405.  
+
+  2023-05-26 15:54:55 ................................................... ~ 0s
+  2023-05-26 15:54:55 ................................................... ~ 0s
+  2023-05-26 15:54:56 ................................................... ~ 0s
+  2023-05-26 15:54:59 ................................................... ~ 0s
+  2023-05-26 15:55:18 ................................................... ~ 0s
+  2023-05-26 15:55:25 ................................................... ~ 0s
+  2023-05-26 15:55:35 ................................................... ~ 0s
+  2023-05-26 15:55:35 ................................................... ~ 0s
+  2023-05-26 15:55:35 ................................................... ~ 0s
+  2023-05-26 15:55:37 ................................................... ~ 0s
+  2023-05-26 15:55:39 ................................................... ~ 0s
+  2023-05-26 15:55:48 ................................................... ~ 0s
+  2023-05-26 15:55:51 ................................................... ~ 0s
+  2023-05-26 15:55:54 ................................................... ~ 0s
+  2023-05-26 15:55:54 ................................................... ~ 0s
+  2023-05-26 15:55:56 ................................................... ~ 0s
+  2023-05-26 15:55:58 ................................................... ~ 0s
+  2023-05-26 15:56:08 ................................................... ~ 0s
+  2023-05-26 15:56:11 ................................................... ~ 0s
+  2023-05-26 15:56:12 ................................................... ~ 0s
+  2023-05-26 15:56:12 ................................................... ~ 0s
+  2023-05-26 15:56:13 ................................................... ~ 1s
+  2023-05-26 15:56:16 ................................................... ~ 0s
+  2023-05-26 15:56:19 ................................................... ~ 0s
+  2023-05-26 15:56:19 ................................................... ~ 0s
+  2023-05-26 16:01:33 ................................................... ~ 0s
+  2023-05-26 16:03:02 ................................................... ~ 0s
+  2023-05-26 16:03:05 ................................................... ~ 0s
+  2023-05-26 16:03:05 ................................................... ~ 0s
+  2023-05-26 16:03:06 ................................................... ~ 0s
+  2023-05-26 16:06:27 ................................................... ~ 0s
+  2023-05-26 16:06:27 ................................................... ~ 0s
+  2023-05-26 16:06:44 ................................................... ~ 1s
+  2023-05-26 16:07:45 ................................................... ~ 0s
+  2023-05-26 16:08:11 ................................................... ~ 0s
+  2023-05-26 16:08:16 ................................................... ~ 0s
+  2023-05-26 16:12:44 ................................................... ~ 0s
+  2023-05-26 16:12:51 ................................................... ~ 0s
+  2023-05-26 16:20:24 ................................................... ~ 0s
+  2023-05-26 16:25:34 ................................................... ~ 0s
+  2023-05-26 16:50:03 ................................................... ~ 0s
+  2023-05-26 18:07:05 ................................................... ~ 1s
+  2023-05-26 18:26:40 ................................................... ~ 0s
+  2023-05-27 10:39:56 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 10:39:56 Northplay\NorthplayApi\Jobs\CreateSession . 68.55ms DONE
+  2023-05-27 10:39:56 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 10:39:56 Northplay\NorthplayApi\Jobs\CreateGameSession  131.65ms DONE
+  2023-05-27 10:41:38 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 10:41:38 Northplay\NorthplayApi\Jobs\CreateSession . 10.14ms DONE
+  2023-05-27 10:41:38 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 10:41:39 Northplay\NorthplayApi\Jobs\CreateGameSession  114.26ms DONE
+  2023-05-27 10:49:34 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 10:49:34 Northplay\NorthplayApi\Jobs\CreateSession . 30.77ms DONE
+  2023-05-27 10:49:34 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 10:49:34 Northplay\NorthplayApi\Jobs\CreateGameSession  121.12ms DONE
+  2023-05-27 10:50:00 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 10:50:00 Northplay\NorthplayApi\Jobs\CreateSession . 16.67ms DONE
+  2023-05-27 10:50:00 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 10:50:00 Northplay\NorthplayApi\Jobs\CreateGameSession  114.84ms DONE
+  2023-05-27 11:07:11 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:07:11 Northplay\NorthplayApi\Jobs\CreateSession . 73.10ms DONE
+  2023-05-27 11:07:11 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:07:12 Northplay\NorthplayApi\Jobs\CreateGameSession  201.66ms DONE
+  2023-05-27 11:15:18 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:15:18 Northplay\NorthplayApi\Jobs\CreateSession . 16.37ms DONE
+  2023-05-27 11:15:18 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:15:18 Northplay\NorthplayApi\Jobs\CreateGameSession  133.80ms DONE
+  2023-05-27 11:17:06 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:17:06 Northplay\NorthplayApi\Jobs\CreateSession . 11.91ms DONE
+  2023-05-27 11:17:06 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:17:06 Northplay\NorthplayApi\Jobs\CreateGameSession  112.60ms DONE
+  2023-05-27 11:17:44 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:17:44 Northplay\NorthplayApi\Jobs\CreateSession . 11.50ms DONE
+  2023-05-27 11:17:44 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:17:44 Northplay\NorthplayApi\Jobs\CreateGameSession  105.09ms DONE
+  2023-05-27 11:19:57 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:19:57 Northplay\NorthplayApi\Jobs\CreateSession . 12.86ms DONE
+  2023-05-27 11:19:57 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:19:57 Northplay\NorthplayApi\Jobs\CreateGameSession  117.17ms DONE
+  2023-05-27 11:20:46 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:20:46 Northplay\NorthplayApi\Jobs\CreateSession . 17.23ms DONE
+  2023-05-27 11:20:46 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:20:46 Northplay\NorthplayApi\Jobs\CreateGameSession  101.13ms DONE
+  2023-05-27 11:21:17 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:21:17 Northplay\NorthplayApi\Jobs\CreateSession . 14.27ms DONE
+  2023-05-27 11:21:17 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:21:17 Northplay\NorthplayApi\Jobs\CreateGameSession  111.09ms DONE
+  2023-05-27 11:30:25 Northplay\NorthplayApi\Jobs\CreateSession ...... RUNNING
+  2023-05-27 11:30:25 Northplay\NorthplayApi\Jobs\CreateSession . 11.27ms DONE
+  2023-05-27 11:30:25 Northplay\NorthplayApi\Jobs\CreateGameSession .. RUNNING
+  2023-05-27 11:30:25 Northplay\NorthplayApi\Jobs\CreateGameSession  119.42ms DONE
